@@ -1,1 +1,2 @@
-# thumbnail_creation_for_short_videos
+# Create a Thumbnail for Short Videos
+
