@@ -10,7 +10,7 @@ import keras.utils as image
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 
 # Load the pre-trained model
-model = load_model('face_validation_model.h5')
+model = load_model('updated_face_validation_model.h5')
 label_map = {'none_face': 1, 'face': 0}
 
 def filter_non_faces(image_directory, image_list, start_index=0):
