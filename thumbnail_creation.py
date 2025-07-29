@@ -93,7 +93,8 @@ def select_top_emotion_images(image_directory, candidate_images, video_id, face_
         'angry': 0.22, 'disgust': 0.1, 'fear': 0.15, 'happy': 0.66,
         'sad': 0.1, 'surprise': 0.44, 'neutral': 0.33
     }
-
+    # here we are giving weight for emotions
+    # main objective is to sellect best happy face
     emotion_scores = {}
     center_distances = {}
     face_areas = {}
